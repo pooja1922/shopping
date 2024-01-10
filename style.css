@@ -1,0 +1,197 @@
+
+ * 
+{
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+hr
+{
+  height: 2px;
+  width: 80px;
+  background-color: rgb(100, 2, 2)  ;
+
+}
+body
+{
+font-family:'poppins',sans-serif;
+background-position: fixed;
+}
+
+#one
+{
+    height:100px;
+    width:100px;
+}
+.navbar
+{
+    font-size: 16px;
+    top: 0;
+    left: 0;
+
+}
+.navbar-light .navbar-nav .nav-link 
+{
+ padding: 0 20px;
+ transition: 0.3s;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar i:hover
+{
+    background-color: black;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar i:hover
+{
+    color: white;
+}
+.navbar i
+{
+    font-weight: 500px;
+    padding: 5px;
+    font-size: 25px;
+}
+.navbar-nav
+{
+    margin-left:400px;
+
+}
+.nav-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:black;
+    cursor:pointer;
+}
+.nav-item button
+{
+    background-color: blueviolet;
+    width: 150px;
+    border-radius: 5px;
+}
+.nav-item button:hover
+{
+    background-color: black;
+    color:white;
+}
+#brand1
+{
+    margin-top: 200px;
+}
+#img1
+{
+    height: 550px;
+    width: 1150px;
+    background-image:none;
+}
+
+.p
+{
+    margin-left: 500px;
+    margin-top: -500px;
+}
+.p button
+{
+    margin-left: 200px;
+    width: 200px;
+    height: 50px;
+}
+.p button:hover
+{
+    background-color: black;
+    color: white;
+}
+.row
+{
+    margin-top: 150px;
+}
+#new .one1 img
+{
+    width:430px;
+    height: 300px;
+}
+#new .one1 .details
+{
+    
+    width: 100%;
+    height: 100%;
+   margin-top: -200px;
+    transition: 0.3s ease;
+    margin-left: 20px;
+    font-size: 20px;
+}
+#new .one1 .details button:hover
+{
+    background-color:black;
+    color:white;
+}
+#featured h3
+{
+   margin-top: 140px;
+}
+.product1
+{
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin-top: -90px;
+
+}
+.product1 img
+{
+    opacity: 0.3s all;
+    height: 300px;
+}
+.product1 img:hover
+{
+    opacity: 0.7;
+}
+.product1 .buy-btn
+{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(230, 122, 122);
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.product1:hover .buy-btn
+{
+   
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.product1 .buy-btn:hover
+{
+background-color: black;
+color: white;
+}
+#banner
+{
+   background:url(img2.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: flex-start;
+  background-attachment: fixed;
+}
+footer .row img
+{
+    height: 250px;
+    width: 250px;
+}
+footer
+{
+    background-color: black;
+    color: white;
+}
+#ft
+{
+    margin-top: -70px;
+}
